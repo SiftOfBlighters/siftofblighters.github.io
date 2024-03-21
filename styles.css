@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+}
+
+p{
+    color: darkgrey;
+}
+
+p.center
+{
+    text-align: center;
+}
