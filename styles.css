@@ -4,8 +4,8 @@ h1{
 
 p{
     color: darkgrey;
-    margin-left: 2cm;
-    margin-right: 2cm
+    margin-left: 3cm;
+    margin-right: 3cm
 }
 
 .center
@@ -18,3 +18,8 @@ p{
 
 }
 
+body
+{
+    background-image: url('sources/background.png');
+    background-size: contain;
+}
