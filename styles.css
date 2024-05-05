@@ -24,3 +24,10 @@ body
     background-image: url('sources/background.png');
     background-size: contain;
 }
+footer
+{
+    
+    margin-left: 2cm;
+    margin-right: 2cm;
+    background-color: #101700;
+}
