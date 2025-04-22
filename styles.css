@@ -1,11 +1,21 @@
-h1, h2{
+.start{
+    margin-top: 200px;
+    color: rgb(75, 75, 75);
+    text-align:center;
+}
+h1, h2, h3{
     color: white;
-    text-align: center;
-    
+    font-size:xx-large;
+}
+h4{
+    color: white;
+    font-size:x-large;
 }
 
+
 p{
-    color: white;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
 }
 
 .center
@@ -21,10 +31,13 @@ p{
 body
 {
     background-image: url('background.png');
-    background-size: auto;
+    background-size:contain;
+    background-repeat: repeat-y;
     backdrop-filter: blur(8px);
     margin-left: 3cm;
     margin-right: 3cm;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 footer
@@ -33,4 +46,8 @@ footer
     margin-left: 2cm;
     margin-right: 2cm;
     background-color: #101700;
+}
+
+.spacing{
+    margin-bottom: 100px;
 }
