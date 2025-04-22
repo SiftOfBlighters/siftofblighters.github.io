@@ -20,7 +20,7 @@ p{
 
 body
 {
-    background-image: url('sources/background.png');
+    background-image: url('background.png');
     background-size: auto;
     backdrop-filter: blur(8px);
     margin-left: 3cm;
