@@ -1,12 +1,11 @@
 h1, h2{
     color: white;
     text-align: center;
+    
 }
 
 p{
-    color: darkgrey;
-    margin-left: 3cm;
-    margin-right: 3cm
+    color: white;
 }
 
 .center
@@ -22,8 +21,12 @@ p{
 body
 {
     background-image: url('sources/background.png');
-    background-size: contain;
+    background-size: auto;
+    backdrop-filter: blur(8px);
+    margin-left: 3cm;
+    margin-right: 3cm;
 }
+
 footer
 {
     
