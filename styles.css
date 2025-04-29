@@ -31,7 +31,7 @@ p{
 body
 {
     background-image: url('background.png');
-    background-size: auto;
+    background-size: cover;
     background-repeat: repeat-y;
     backdrop-filter: blur(8px);
     background-attachment: fixed;
@@ -51,4 +51,9 @@ footer
 
 .spacing{
     margin-bottom: 100px;
+}
+
+.fixed-bg{
+    min-height: 1080;
+    min-width: 1920;
 }
