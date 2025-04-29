@@ -39,6 +39,8 @@ body
     margin-right: 3cm;
     padding-left: 20px;
     padding-right: 20px;
+    min-height: 1080;
+    min-width: 1920;
 }
 
 footer
@@ -51,9 +53,4 @@ footer
 
 .spacing{
     margin-bottom: 100px;
-}
-
-.fixed-bg{
-    min-height: 1080;
-    min-width: 1920;
 }
